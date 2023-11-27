@@ -9,7 +9,7 @@ body {
 
 /* Header styles */
 header {
-    background: rgb(3,252,244);
+    background: rgb(3, 252, 244);
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -29,8 +29,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color:black ;
+    color: red;
     text-decoration: none;
+    font-weight: bold;
 }
 
 /* Main content styles */
@@ -67,40 +68,49 @@ p {
     color: white;
 }
 
+#whatiswaf {
+    padding: 20px;
+    background-image: url('wf1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #howitworks {
     padding: 20px;
     /* Adding padding for better visibility */
-    background-image: url('wf.jpg');
+    background-image: url('wf1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 h1 {
-    color: orange;
+    color: black;
+}
+
+#types {
+    color: white;
+    padding: 20px;
+    background-image: url('wf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #benefits {
     padding: 20px;
     /* Adding padding for better visibility */
-    background-image: url('wf.jpg');
+    background-image: url('WAF1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    
-}
-#types{
-    color: white;
-    padding: 20px;
-        background-image: url('wf.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
 
-#whatiswaf{
+}
+
+#Conclusion {
     padding: 20px;
-        background-image: url('wf.jpg');
+    background-image: url('wf1.jpg');
     background-size: cover;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    background-repeat: no-repeat;
+    background-size: cover;
+}
